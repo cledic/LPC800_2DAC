@@ -1,5 +1,5 @@
-LPC810_CodeBase
-===============
+LPC810_CodeBase by Clem
+=======================
 
 Open source code base for the ARM Cortex M0+ LPC810 family from NXP.
 
@@ -15,3 +15,5 @@ The current code implements the following peripheral drivers:
 The code base also implements a mini printf that takes up much less space than the default printf used in most libc variants.  If necessary, it's easy to change the printf redirection to a location other than UART0 via the printf-redirection.c file.
 
 I have also created some libraries to manage the following chips: MCP3004 ADC, MCP4921 DAC.
+There is a quick and dirty DDS and a library to start the systemtick timer.
+Also there is a library to use the XMON software to visualize the serial data on a PC running windows.
