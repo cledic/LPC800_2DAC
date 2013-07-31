@@ -13,3 +13,5 @@ The current code implements the following peripheral drivers:
 - A basic multi-rate timer driver that allows us to set delays
 
 The code base also implements a mini printf that takes up much less space than the default printf used in most libc variants.  If necessary, it's easy to change the printf redirection to a location other than UART0 via the printf-redirection.c file.
+
+I have also created some libraries to manage the following chips: MCP3004 ADC, MCP4921 DAC.
